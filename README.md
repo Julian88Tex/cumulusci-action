@@ -1,2 +1,13 @@
-# cumulusci-action
-CumulusCI GitHub Action
+# CumulusCI GitHub Action
+- CumulusCI GitHub Action to be used for on Platform Salesforce projects that have already set up CumulusCI.
+
+# Setup
+- First setup CumulusCI for your repo: https://cumulusci.readthedocs.io/en/latest/tutorial.html
+- Create a new file in `.github/workflows/` called "feature_tests.yml"
+- Copy action into file.
+- Replace `<replacewithprojectname>` with CumulusCI Project Name (note: refer to `robot` folder in project for name)
+- Create a GitHub Personal Access Token: https://github.com/settings/tokens/new
+- Add the token to GitHub repo secrets and name it `CUMULUSCI_SERVICE_github`
+
+# Need Help?
+- Refer to https://cumulusci.readthedocs.io/en/latest/cookbook.html#continuous-integration-with-cumulusci-and-github-actions
