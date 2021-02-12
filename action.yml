@@ -1,4 +1,9 @@
 name: CumulusCI Action
+author: Juliani Joseph
+description: 'This action is a template for running CumulusCI as a GitHub Action'
+branding:
+  icon: 'check'  
+  color: 'purple'
 
 on: [push]
 
