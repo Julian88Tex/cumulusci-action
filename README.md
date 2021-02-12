@@ -8,6 +8,8 @@
 - Replace `<replacewithprojectname>` with CumulusCI Project Name (note: refer to `robot` folder in project for name)
 - Create a GitHub Personal Access Token: https://github.com/settings/tokens/new
 - Add the token to GitHub repo secrets and name it `CUMULUSCI_SERVICE_github`
+- Run `sfdx force:org:display --verbose -u <devhubusername>` for your devhub
+- Add `Sfdx Auth Url` to GitHub repo secrets and name it `SFDX_AUTH_URL` 
 
 # Need Help?
 - Refer to https://cumulusci.readthedocs.io/en/latest/cookbook.html#continuous-integration-with-cumulusci-and-github-actions
