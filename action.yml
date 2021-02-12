@@ -1,4 +1,4 @@
-name: Feature Test
+name: CumulusCI Action
 
 on: [push]
 
