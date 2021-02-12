@@ -13,3 +13,6 @@
 
 # Need Help?
 - Refer to https://cumulusci.readthedocs.io/en/latest/cookbook.html#continuous-integration-with-cumulusci-and-github-actions
+
+# Credits
+- Action is based on work by @davisagli and the Salesforce.org Release Engineering Team
